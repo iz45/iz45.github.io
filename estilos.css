@@ -1,0 +1,296 @@
+/*formatea por defecto todos los elementos*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1em;
+}
+
+/*hace que el video de intro se muestre en toda la pagina*/
+#intro {
+    display: flex;
+    justify-content: center;
+    width: 100vh;
+    height: 100vh;
+}
+
+#intro>video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/*estilos de la cabecera*/
+header {
+    display: flex;
+    align-items: center;
+    min-height: 10vh;
+    padding: 0 20px;
+}
+
+header .menu {
+    flex: 1;
+}
+
+header ul {
+    min-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+header li {
+    list-style-type: none;
+    padding: 0 15px;
+}
+
+#login {
+    margin-left: auto;
+}
+
+header a {
+    text-decoration: none;
+    color: green;
+}
+
+header a:hover {
+    text-decoration: underline;
+    color: hotpink;
+}
+
+.logo {
+    margin: auto;
+    height: 30px;
+    padding: 20px;
+}
+
+.separador {
+    overflow: hidden;
+    height: 30px;
+}
+
+.separador:after {
+    content: '';
+    display: block;
+    width: 90%;
+    height: 30px;
+    margin: -30px auto 0;
+    border-radius: 120px / 10px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+}
+
+/*cambia los estilos de los links del menú de navegación*/
+.menu {
+    padding: 15px;
+}
+
+ul{
+    list-style-type: circle;
+}
+
+.menu a {
+    color: green;
+}
+
+.menu a:hover {
+    color: hotpink;
+}
+/*estilos del layout default de las páginas*/
+main {
+    padding: 0 20px;
+    flex: 1;
+}
+
+.mainf {
+    display: flex;
+}
+
+.content {
+    width: 70%;
+}
+
+/*estilos del formulario de registro*/
+#registraform form,
+#registraform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#registraform label,
+.enviar {
+    padding: 10px;
+}
+
+/*estilos del formulario del perfil*/
+#perfilform {
+    display: flex;
+    flex-direction: column;
+}
+
+#perfilform h1 {
+    align-self: center;
+}
+/*estilos de la página de perfil*/
+.perfilpage{
+    display: flex;
+}
+
+.perfilpage form{
+    flex: 1;
+}
+
+.userinfo{
+    display: flex;
+}
+
+.userimage{
+    width: 40%;
+}
+
+.userimage img{
+    width: 90%;
+    border-radius: 10px;
+}
+
+.text{
+    flex: 1;
+}
+
+.multiplechoice {
+    padding-left: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    padding-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 30%;
+}
+
+.collab {
+    margin: 20px 0;
+    width: 100%;
+}
+
+footer {
+    height: 5vh;
+    font-size: 1em;
+    padding: 20px;
+    background: rgb(11, 138, 0);
+    background: linear-gradient(0deg, rgba(11, 138, 0, 1) 0%, rgba(0, 196, 0, 0.5606617647058824) 50%, rgba(31, 255, 0, 0) 100%);
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a {
+    color: green;
+}
+
+footer a:hover {
+    color: hotpink;
+}
+
+.social img {
+    width: 20px;
+    padding: 5px;
+}
+
+table {
+    border: solid 2px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tabla{
+    overflow-x: auto;
+}
+
+td,
+th {
+    padding: 5px;
+    border: solid 1px;
+}
+
+tr:hover {
+    background-color: gray;
+}
+
+article p {
+    padding-bottom: 15px;
+}
+
+@media only screen and (max-width:800px) {
+    .mainf {
+        flex-direction: column;
+    }
+
+    aside{
+        width: 90%;
+    }
+
+    aside img {
+        width: 70%;
+    }
+
+    header {
+        flex-direction: column;
+        min-height: 27vh;
+    }
+
+    header ul {
+        flex-direction: column;
+    }
+
+    header li {
+        padding: 10px 0;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    #login {
+        margin-left: 0;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    header li {
+        background-color: lightgray;
+        text-align: center;
+        border-radius: 20px;
+    }
+
+    header li:hover {
+        background-color: lightgreen;
+    }
+    .perfilpage{
+        flex-direction: column;
+    }
+    .userinfo{
+        margin-top: 40px;
+    }
+    .separador{
+        display: none;
+    }
+}
