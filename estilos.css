@@ -93,19 +93,24 @@ header a:hover {
 }
 
 /*cambia los estilos de los links del menú de navegación*/
-.menu {
+.menu{
     padding: 15px;
 }
 
 ul{
     list-style-type: circle;
+    list-style-position: inside;
 }
 
-.menu a {
+ol{
+    list-style-position: inside;
+}
+
+.menu a , .lista a{
     color: green;
 }
 
-.menu a:hover {
+.menu a:hover , .lista a:hover{
     color: hotpink;
 }
 /*estilos del layout default de las páginas*/
