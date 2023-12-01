@@ -27,7 +27,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: rgb(230, 240, 230);
+    background-color: rgb(220, 240, 220);
 }
 /*estilos de la cabecera*/
 header {
@@ -77,7 +77,7 @@ header a:hover {
     overflow: hidden;
     height: 30px;
 }
-
+/*sombra para el header*/
 .separador:after {
     content: '';
     display: block;
@@ -222,6 +222,7 @@ table {
     border: solid 2px;
     border-collapse: collapse;
     width: 100%;
+    background-color: white;
 }
 
 .tabla{
