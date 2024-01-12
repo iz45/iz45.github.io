@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es-es">
+
+    <id>https://iz45.github.io/sindicacion.atom</id>
+    <title>Página de Izas Buil</title>
+    <link href="https://iz45.github.io/index.html" />
+    <updated>2024-01-12T18:30:02Z</updated>
+    <author>
+        <name>Izas</name>
+    </author>
+    <link rel="self" href="https://iz45.github.io/feed"/>
+
+    <entry>
+        <id>https://iz45.github.io/lanzamientos2023.html</id>
+        <title>Lanzamientos 2023</title>
+        <link href="https://iz45.github.io/lanzamientos2023.html" />
+        <updated>2024-01-12T19:01:00Z</updated>
+        <summary>Lanzamientos de títulos de 2023</summary>
+    </entry>
+    <entry>
+        <id>https://iz45.github.io/noticias.html</id>
+        <title>Noticias</title>
+        <link href="https://iz45.github.io/noticias.html" />
+        <updated>2024-01-12T19:02:00Z</updated>
+        <summary>Noticias del mundo de los videojuegos</summary>
+    </entry>
+    <entry>
+        <id>https://iz45.github.io/entrevistas.html</id>
+        <title>Entrevistas</title>
+        <link href="https://iz45.github.io/entrevistas.html" />
+        <updated>2024-01-12T19:03:00Z</updated>
+        <summary>Entrevistas a personas de la industria</summary>
+    </entry>
+</feed>
