@@ -22,5 +22,11 @@
             <link>https://iz45.github.io/entrevistas.html</link>
             <description>Entrevistas a personas de la industria</description>
         </item>
+        <item>
+            <title>sesion</title>
+            <author>izasbuil@gmail.com (Izas Buil)</author>
+            <link>https://iz45.github.io/formulario.html</link>
+            <description>iniciar sesión</description>
+        </item>
     </channel>
 </rss>
