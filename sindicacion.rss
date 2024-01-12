@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Página de izasbuil@gmail.com (Izas Buil)</title>
+        <link>https://iz45.github.io/index.html</link>
+        <description>Página web de izasbuil@gmail.com (Izas Buil)</description>
+        <item>
+            <title>Lanzamientos 2023</title>
+            <author>izasbuil@gmail.com (Izas Buil)</author>
+            <link>https://iz45.github.io/lanzamientos2023.html</link>
+            <description>Lanzamientos de títulos en 2023</description>
+        </item>
+        <item>
+            <title>Noticias</title>
+            <author>izasbuil@gmail.com (Izas Buil)</author>
+            <link>https://iz45.github.io/noticias.html</link>
+            <description>Sección de noticas de videojuegos</description>
+        </item>
+        <item>
+            <title>Entrevistas</title>
+            <author>izasbuil@gmail.com (Izas Buil)</author>
+            <link>https://iz45.github.io/entrevistas.html</link>
+            <description>Entrevistas a personas de la industria</description>
+        </item>
+    </channel>
+</rss>
