@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registrarse</title>
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <main id="registraform">
+        <form action="perfil.html" method="post">
+            <label for="usuario">Nombre de usuario: </label>
+            <input type="text" id="usuario" name="usuario" min="3" max="16">
+            <label for="lista">Lista:</label>
+            <section class="multiplechoice" id="lista">
+                <input type="radio" name="genero" value="opcion 1"><label>opcion 1</label><br>
+                <input type="radio" name="genero" value="opcion 2"><label>opcion 2</label><br>
+                <input type="radio" name="genero" value="opcion 3"><label>opcion 3</label><br>
+                <input type="radio" name="genero" value="opcion 4"><label>opcion 4</label>
+            </section>
+            <br>
+            <input type="submit" name="enviar" value="enviar" class="enviar">
+        </form>
+    </main>
+</body>
+
+</html>
